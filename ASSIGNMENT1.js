@@ -98,7 +98,20 @@ function sum(...numbers) {
 }
 console.log(sum(1, 2, 3,4,5));           
 
+
 //Question(12)
+function resolveAfter3Seconds() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('Success');
+    }, 3000);
+  });
+}
+
+resolveAfter3Seconds().then((message) => {
+  console.log(message); // Output: "Success"
+});
+
 
 //Question(13)
 function max_num(num){
