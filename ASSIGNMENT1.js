@@ -98,6 +98,7 @@ function sum(...numbers) {
 }
 console.log(sum(1, 2, 3,4,5));           
 
+//Question(12)
 
 //Question(13)
 function max_num(num){
